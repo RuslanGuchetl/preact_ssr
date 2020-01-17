@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to right top, #2b0537, #820643, #c4442b, #d69600, #a8eb12);
+    height: 100vh;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    color: white
+}
+
+.count p {
+    color: white;
+    font-size: 60px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.increment-btn {
+    background-color: #1A2C5D;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.decrement-btn {
+    background-color: #BC1B1B;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.flex-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
